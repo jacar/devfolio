@@ -44,7 +44,7 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
       >
         <img
           src="/project-bg.svg"
-          alt="project"
+          alt="proyecto"
           className="absolute w-full h-full top-0 left-0 object-cover opacity-30"
         />
         <Image
@@ -74,9 +74,9 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
           {name}
         </h1>
         <div
-          className={`
-            ${styles.techIcons} w-1/2 h-full absolute left-24 top-0 sm:flex items-center hidden
-          `}
+          className={`${
+            styles.techIcons
+          } w-1/2 h-full absolute left-24 top-0 sm:flex items-center hidden`}
         >
           <div className="flex flex-col pb-8">
             {project.tech.map((el, i) => (
