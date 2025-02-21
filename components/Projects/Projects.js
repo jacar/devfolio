@@ -54,7 +54,7 @@ const Projects = ({ isDesktop, clientHeight }) => {
   const getProjectsSt = () => {
     const timeline = gsap.timeline({ defaults: { ease: "none" } });
     const sidePadding =
-      document.body.clientWidth -
+      document.body.clientWidth - 
       sectionRef.current.querySelector(".inner-container").clientWidth;
     const elementWidth =
       sidePadding +
@@ -110,9 +110,7 @@ const Projects = ({ isDesktop, clientHeight }) => {
         >
           {PROJECTS.map((project, index) => (
             <ProjectTile
-              classes={
-                index === PROJECTS.length - 1 ? "" : "mr-10 xs:mr-12 sm:mr-16"
-              }
+              classes={index === PROJECTS.length - 1 ? "" : "mr-10 xs:mr-12 sm:mr-16"}
               project={project}
               key={project.name}
             />
