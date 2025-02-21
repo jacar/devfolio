@@ -6,8 +6,9 @@ import Profiles from "../Profiles/Profiles";
 import styles from "./Hero.module.scss";
 import { MENULINKS, TYPED_STRINGS } from "../../constants";
 
+// Las cadenas de texto que serán utilizadas por Typed.js (traducción al español)
 const options = {
-  strings: TYPED_STRINGS,
+  strings: TYPED_STRINGS.map(str => str.replace(/Hello/g, "Hola").replace(/I am/g, "Soy").replace(/developer/g, "desarrollador")), // Adaptar las cadenas al español
   typeSpeed: 50,
   startDelay: 1500,
   backSpeed: 50,
