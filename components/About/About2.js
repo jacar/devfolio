@@ -41,7 +41,7 @@ const About2 = ({ clientHeight }) => {
           ref={quoteRef}
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
-          I have a{" "}
+          Tengo una{" "}
           <span
             className="about-3 font-bold"
             style={{
@@ -52,9 +52,9 @@ const About2 = ({ clientHeight }) => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            strong
+            fuerte
           </span>{" "}
-          obsession for attention to detail.
+          obsesión por la atención al detalle.
         </h1>
       </div>
     </section>
