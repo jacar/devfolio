@@ -78,19 +78,19 @@ const Work = ({ isDesktop }) => {
         loading="lazy"
         height={700}
         width={320}
-        alt=""
+        alt="Fondo izquierdo"
       />
       <div className="section-container py-16 flex flex-col justify-center">
         <div className="flex flex-col work-wrapper">
           <div className="flex flex-col">
             <p className="uppercase tracking-widest text-gray-light-1 staggered-reveal">
-              WORK
+              EXPERIENCIA
             </p>
             <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
-              Experience
+              Mi Experiencia
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-              A quick recap of where I&apos;ve worked.{" "}
+              Un breve resumen de donde he trabajado.
             </h2>
           </div>
           <Tabs tabItems={tabItems} />
