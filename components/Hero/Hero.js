@@ -79,7 +79,7 @@ const Hero = () => {
         <h5
           className={`${styles.intro} font-mono font-medium text-indigo-light staggered-reveal`}
         >
-          Hi, my name is
+          Hola, mi nombre es
         </h5>
         <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
           <span className={`relative ${styles.emphasize} staggered-reveal`}>
@@ -98,7 +98,7 @@ const Hero = () => {
         </div>
         <div className="staggered-reveal pt-4">
           <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
-            Let&apos;s Talk
+            Hablemos
           </Button>
         </div>
       </div>
